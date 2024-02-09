@@ -12,7 +12,7 @@ from pprint import pprint
 import matplotlib.pyplot as plt
 
 
-def SearchProject(keyword_search='เรือดำน้ำ',year=2562,limit=20):
+def SearchProject(keyword_search='xxx',year=2562,limit=20):
 
   url = 'https://opend.data.go.th/govspending/cgdcontract'
 
@@ -63,4 +63,4 @@ def SearchProject(keyword_search='เรือดำน้ำ',year=2562,limit=2
   # plt.xticks(projectname)
   # plt.show()
 
-SearchProject('หน้ากากอนามัย',2562)
+SearchProject('aaa',2562)
